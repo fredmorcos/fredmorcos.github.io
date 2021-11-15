@@ -13,21 +13,27 @@
     }
 }
 
-.text-indigo {
-    color: #C4B0E9 !important;
+.text-bold {
+  font-weight: bold !important;
 }
 
-.text-orange {
-    color: #FFD2A8 !important;
-}
+/*
+   .text-indigo {
+   color: #C4B0E9 !important;
+   }
 
-.text-blue {
-    color: #95C4D4 !important;
-}
+   .text-orange {
+   color: #FFD2A8 !important;
+   }
 
-.text-green {
-    color: #51BB81 !important;
-}
+   .text-blue {
+   color: #95C4D4 !important;
+   }
+
+   .text-green {
+   color: #51BB81 !important;
+   }
+*/
 
 a {
     background: rgba(73, 87, 116, 0.7);
