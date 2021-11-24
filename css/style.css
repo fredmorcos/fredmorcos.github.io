@@ -7,6 +7,14 @@
   user-select: none;
 }
 
+.lead {
+  font-weight: 400;
+}
+
+.fa-arrow-alt-circle-right {
+  font-size: 11px;
+}
+
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
