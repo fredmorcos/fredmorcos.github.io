@@ -5,144 +5,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Welcome to Fred’s</title>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="fonts/fa.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
   </head>
 
-  <body class="text-center">
-    <div class="cover-container d-flex w-100 p-3 mx-auto flex-column">
-      <header class="masthead mb-auto">
-        <!-- <div class="inner"> -->
-        <!--   <h3 class="masthead-brand">Cover</h3> -->
-        <!--   <nav class="nav nav-masthead justify-content-center"> -->
-        <!--     <a class="nav-link active" href="#">Home</a> -->
-        <!--     <a class="nav-link" href="#">Features</a> -->
-        <!--     <a class="nav-link" href="#">Contact</a> -->
-        <!--   </nav> -->
-        <!-- </div> -->
-      </header>
+  <body>
+    <div>
+      <main>
+        <h1>Hello, I’m Fred</h1>
 
-      <main role="main" class="inner cover">
-        <h1 class="cover-heading text-left">Hello, I’m Fred</h1>
-        <br/>
-        <p class="lead text-left">
-          I am a <span class="text-bold">freelance software engineer</span> currently
-          based in Vienna, Austria. My focus is on <span class="text-bold">Linux application and system development</span> using
-          <span class="text-bold">C</span>, <span class="text-bold">C++</span> and <span class="text-bold">Rust</span>
-          and I have a strong passion towards designing software around <span class="text-bold">correctness
-            and performance</span>.
+        <p>
+          I am a <span class="emphasize">freelance software engineer</span> currently
+          based in Vienna, Austria. I prefer to focus on <span class="emphasize">Linux
+          application and system development</span> using <span class="emphasize">C</span>,
+          <span class="emphasize">C++</span> or <span class="emphasize">Rust</span> and
+          I have a strong passion towards designing software around
+          <span class="emphasize">correctness and performance</span>.
         </p>
-        <p class="lead text-left">
+
+        <p>
           Previously, I worked as a member of the team developing the Sulong LLVM Runtime
-          for <a href="https://www.graalvm.org/"><i class="far fa-arrow-alt-circle-right"></i> GraalVM<span></a>
-          at <a href="https://labs.oracle.com/"><i class="far fa-arrow-alt-circle-right"></i> Oracle</a>.
+          for <a href="https://www.graalvm.org/"><span class="link"></span> GraalVM</a>
+          at <a href="https://labs.oracle.com/"><span class="link"></span> Oracle</a>.
         </p>
-        <p class="lead text-left">
+
+        <p>
           Before that, I worked on symbolic execution of Java and Go, developed solutions
-          to automate the analysis of RF engine models at <a href="https://www.intel.com/content/www/us/en/products/docs/wireless-products/mobile-communications/company-overview.html"><i class="far fa-arrow-alt-circle-right"></i> Intel<span></a> and worked
-          on research in high performance computing for <a href="https://prace-ri.eu/"><i class="far fa-arrow-alt-circle-right"></i>
-          PRACE<span></a>.
+          to automate the analysis of RF engine models at <a href="https://www.intel.com">
+          <span class="link"></span> Intel</a> and worked on research in high performance
+          computing for <a href="https://prace-ri.eu/"><span class="link"></span> PRACE</a>.
         </p>
-        <p class="lead text-left">
-          In my free time I enjoy traveling, scuba diving, cycling and, occasionally,
-          olympic weightlifting.
-        </p>
-        <br/>
-        <h2 class="cover-heading text-left">Open Source Projects</h2>
-        <p class="lead text-left">
-          <p class="lead left-text really-left">
+
+        <h2>Open Source Projects</h2>
+
+        <p>
+          <div class="project-title">
             <a href="https://github.com/fredmorcos/katoob"/>
-            <i class="far fa-arrow-alt-circle-right"/></i> Katoob</a>
+            <span class="link"></span> Katoob</a>
+
             <span class="tag">C++</span>
             <span class="tag">Gtkmm</span>
             <span class="tag">Meson Build System</span>
-            <br/>
+          </div>
+          <div>
             A lightweight, multilingual, bidirectional and unicode-aware text editor with
             some unique features like multipress and online dictionary lookup.
-          </p>
+          </div>
+        </p>
 
-          <p class="lead left-text really-left">
+        <p>
+          <div class="project-title">
             <a href="https://github.com/fredmorcos/libcore"/>
-            <i class="far fa-arrow-alt-circle-right"/></i> libcore</a>
+            <span class="link"></span> libcore</a>
+
             <span class="tag">C</span>
             <span class="tag">POSIX</span>
             <span class="tag">GNU Make</span>
-            <br/>
+          </div>
+          <div>
             C library with better interfaces to some of POSIX's string manipulation,
             buffering, networking and file-system access functions.
-          </p>
+          </div>
+        </p>
 
-          <p class="lead left-text really-left">
+        <p>
+          <div class="project-title">
             <a href="https://github.com/fredmorcos/libmake"/>
-            <i class="far fa-arrow-alt-circle-right"/></i> libmake</a>
+            <span class="link"></span> libmake</a>
+
             <span class="tag">GNU Make</span>
-            <br/>
+          </div>
+          <div>
             A pure GNU Make library to ease the building of C/C++ applications in
             different modes. Supports Clang, GCC and sanitization builds.
-          </p>
+          </div>
+        </p>
 
-          <p class="lead left-text really-left">
+        <p>
+          <div class="project-title">
             <a href="https://github.com/fredmorcos/tvrank"/>
-            <i class="far fa-arrow-alt-circle-right"/></i> TVrank</a>
+            <span class="link"></span> TVrank</a>
+
             <span class="tag">Rust</span>
             <span class="tag">Reqwest</span>
-            <br/>
+          </div>
+          <div>
             A very fast library and application to rank movies and series. Achieves its
-            speed by using a multi-threaded parser and in-memory database.
-          </p>
+            speed by being multi-threaded.
+          </div>
+        </p>
 
-          <p class="lead left-text really-left">
+        <p>
+          <div class="project-title">
             <a href="https://github.com/fredmorcos/throttle_my_fn"/>
-            <i class="far fa-arrow-alt-circle-right"/></i> throttle_my_fn</a>
+            <span class="link"></span> throttle_my_fn</a>
+
             <span class="tag">Rust</span>
-            <br/>
+          </div>
+          <div>
             A Rust attribute macro to rate-limit function execution. The use-case is
             rate-limiting web service requests. Works correctly in multi-threaded
             contexts.
-          </p>
+          </div>
+        </p>
 
-          <p class="lead left-text really-left">
+        <p>
+          <div class="project-title">
             <a href="https://github.com/fredmorcos/medviz"/>
-            <i class="far fa-arrow-alt-circle-right"/></i> MedViz</a>
+            <span class="link"></span> MedViz</a>
+
             <span class="tag">Rust</span>
             <span class="tag">Graphics</span>
-            <br/>
+          </div>
+          <div>
             Extract 2D images from 3D volumetric data. Can extract any requested slice
             through the X, Y and Z-axis.
-          </p>
+          </div>
+        </p>
 
-          <p class="lead left-text really-left">
+        <p>
+          <div class="project-title">
             <a href="https://github.com/fredmorcos/has"/>
-            <i class="far fa-arrow-alt-circle-right"/></i> HAS</a>
-            and
+            <span class="link"></span> HAS</a> and
+
             <a href="https://github.com/fredmorcos/hackism"/>
-            <i class="far fa-arrow-alt-circle-right"/></i> Hackism</a>
+            <span class="link"></span> Hackism</a>
+
             <span class="tag">Rust</span>
             <span class="tag">Assembly</span>
             <span class="tag">HACK</span>
-            <br/>
+          </div>
+          <div>
             Assembler and disassembler for the educational HACK machine.
-          </p>
+          </div>
         </p>
-        <br/>
-        <h2 class="cover-heading text-left">Find me</h2>
-        <p class="lead really-left big move-up">
-          <a class="icon" href="mailto:hello@fredmorcos.com"><i class="fas fa-envelope"></i></a>
-          <a class="icon" href="https://www.linkedin.com/in/fredmorcos/"><i class="fab fa-linkedin"></i></a>
-          <a class="icon" href="https://github.com/fredmorcos/"><i class="fab fa-github-square"></i></a>
-        </p>
-        <!-- <p class="lead"> -->
-        <!--   <a href="#" class="btn btn-lg btn-secondary">Learn more</a> -->
-        <!-- </p> -->
-      </main>
 
-      <footer class="mastfoot mt-auto">
-        <!-- <div class="inner"> -->
-        <!--   <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p> -->
-        <!-- </div> -->
-      </footer>
+        <h2>Find me</h2>
+
+        <p>
+          <a class="icon" href="mailto:hello@fredmorcos.com"><span class="email"/></a>
+          <a class="icon" href="https://www.linkedin.com/in/fredmorcos"><span class="linkedin"/></a>
+          <a class="icon" href="https://github.com/fredmorcos"><span class="github"/></a>
+        </p>
+      </main>
     </div>
   </body>
 </html>

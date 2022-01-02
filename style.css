@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Fira Sans Condensed';
+  src: url('fonts/FiraSansCondensedBook.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans Condensed';
+  src: url('fonts/FiraSansCondensedMedium.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html {
+  font-family: "Fira Sans Condensed", "Sans";
+  min-height: 100%;
+  background-color: #333;
+  color: #fff;
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 130%;
+}
+
+body {
+  max-width: 35rem;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.link, .tag {
+  font-size: 70%;
+}
+
+.tag {
+  background: #496685;
+  padding: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+a, .emphasize {
+  font-family: "Fira Sans Condensed", "Sans";
+  font-weight: bold;
+}
+
+a {
+  background: rgba(73, 87, 116, 0.7);
+  padding: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  transition-timing-function: ease-in;
+  transition: 1s;
+  white-space: nowrap;
+}
+
+a:focus, a:hover {
+  background: #496685;
+  border-radius: 2px;
+  color: white;
+  text-decoration: none;
+  transition-timing-function: ease-in;
+  transition: 1s;
+}
+
+a.icon {
+  background: transparent;
+  font-size: 250%;
+}
+
+.project-title {
+  padding-bottom: 5px;
+}

@@ -1,0 +1,45 @@
+/*!
+ * Font Awesome Free 6.0.0-beta3 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2021 Fonticons, Inc.
+ */
+
+@font-face {
+  font-family: 'FA Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("fa-brands-400.woff2") format("woff2"), url("fa-brands-400.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'FA Solid';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("fa-solid-900.woff2") format("woff2"), url("fa-solid-900.ttf") format("truetype");
+}
+
+.github:before {
+  font-family: 'FA Brands';
+  font-weight: 400;
+  content: "\f092";
+}
+
+.linkedin:before {
+  font-family: 'FA Brands';
+  font-weight: 400;
+  content: "\f08c";
+}
+
+.email:before {
+  font-family: 'FA Solid';
+  font-weight: 900;
+  content: "\f199";
+}
+
+.link:before {
+  font-family: 'FA Solid';
+  font-weight: 900;
+  content: "\f105";
+}
